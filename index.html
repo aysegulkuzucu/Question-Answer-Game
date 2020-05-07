@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>SORU CEVAP OYUNU</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/tasarim.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script> 
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="main">
+            <div class="start-page">        
+                <div class="img-initial">
+                    <p class="a"><b>SORU CEVAP OYUNUNA HOŞ GELDİNİZ!</b></p>
+                    <p class="b">Soruları size ayrılan 20 saniye içinde cevaplayın!</p> 
+                    <p class="b">Oyunun sonunda yeniden oyunu başlatabilirsiniz.</p>
+                </div>            
+                <div class="start-btn">OYUNA BAŞLA!</div>
+        
+            </div>
+            <div class="row questions-page">
+                <div class="question"></div>
+            </div>
+            <div class="row answers"></div>
+            <div class="row reset-button"></div>
+        </div>
+    </div>
+    <div class='timer text-left'></div>
+    <div class='score text-right'>
+        <div class="right"></div>
+        <div class="wrong"></div>
+    </div>
+    <script src="js/uygulama.js"></script>
+</body>
+</html>

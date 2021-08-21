@@ -1,6 +1,9 @@
 # Question-Answer-Game
 
-Review the Question and Answer Game : https://youtu.be/xFlBnT249mQ
+
+Review the Question and Answer Game : https://aysegulkuzucu.github.io/Question-Answer-Game/
+
+YouTube : https://youtu.be/xFlBnT249mQ
 
 picture question
 video question
